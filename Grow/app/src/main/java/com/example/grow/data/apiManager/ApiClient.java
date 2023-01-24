@@ -1,4 +1,4 @@
-package com.example.grow.ws;
+package com.example.grow.data.apiManager;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

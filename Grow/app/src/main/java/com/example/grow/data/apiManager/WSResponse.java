@@ -1,8 +1,4 @@
-package com.example.grow.ws;
-
-/**
- * Created by hardik on 27/1/17.
- */
+package com.example.grow.data.apiManager;
 
 
 public interface WSResponse {

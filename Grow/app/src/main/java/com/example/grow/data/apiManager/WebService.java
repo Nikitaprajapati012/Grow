@@ -1,8 +1,6 @@
-package com.example.grow.ws;
+package com.example.grow.data.apiManager;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 
 import java.io.IOException;
 import java.util.Map;

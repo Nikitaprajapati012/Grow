@@ -1,4 +1,4 @@
-package com.example.grow.ws;
+package com.example.grow.data.apiManager;
 
 /**
  * Created by hardik on 27/1/17.
