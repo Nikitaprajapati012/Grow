@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation"
+    android:id="@+id/navigation_main">
+
+        <navigation
+            android:id="@+id/navigation"
+            app:startDestination="@id/myHomeFragment">
+            <fragment
+                android:id="@+id/myHomeFragment"
+                android:name="com.example.grow.ui.main.view.fragments.HomeFragment"
+                android:label="@string/fragment_home"
+                tools:layout="@layout/fragment_home">
+
+                <action android:id="@+id/action_Home_to_Main"
+                    app:popUpTo="@id/myHomeFragment" />
+            </fragment>
+    </navigation>
+
+    <!--    <fragment android:id="@+id/mySecondFragment"-->
+<!--        android:name="com.navigation.component.sample.ui.fragments.MySecondFragment"-->
+<!--        android:label="fragment_my_second"-->
+<!--        tools:layout="@layout/fragment_my_second">-->
+
+
+<!--    </fragment>-->
+
+<!--    <fragment android:id="@+id/myThirdFragment"-->
+<!--        android:name="com.navigation.component.sample.ui.fragments.MyThirdFragment"-->
+<!--        android:label="fragment_my_third"-->
+<!--        tools:layout="@layout/fragment_my_third">-->
+
+<!--    </fragment>-->
+</navigation>
